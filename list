@@ -1,0 +1,2 @@
+gsutil ls gs://javalove93-samples/kaggle/wikipedia/output/
+

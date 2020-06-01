@@ -1,0 +1,5 @@
+mvn -e compile exec:java \
+	-Dexec.mainClass=com.example.dataflow.WikipediaProcessor \
+	-Dexec.args="--inputPath=gs://javalove93-samples/kaggle/wikipedia/test.txt --outputPath=gs://javalove93-samples/kaggle/wikipedia/output/test --regEx=\"[^A-Za-z']+\" "
+
+gsutil ls gs://javalove93-samples/kaggle/wikipedia/output/
