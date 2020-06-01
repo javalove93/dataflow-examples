@@ -1,0 +1,6 @@
+rm output/*
+mvn -e compile exec:java \
+	-Dexec.mainClass=com.example.dataflow.BigQuery7 \
+	-Dexec.args=" "
+
+egrep "en|ko|fr|jp" output/*

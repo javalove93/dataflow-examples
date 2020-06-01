@@ -1,5 +1,3 @@
-com/example/dataflow/WordCount$WordCountProcessor.class
-com/example/dataflow/WordCount.class
 com/example/dataflow/WikipediaProcessor.class
 com/example/dataflow/WikipediaProcessor$CleansingProcessor.class
 com/example/dataflow/SampleOptions.class
